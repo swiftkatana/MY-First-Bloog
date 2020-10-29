@@ -1,0 +1,53 @@
+<%- include("partials/header") -%>
+
+
+    <div class="posts container">
+        <div class="header">
+            <h1>daniel levy</h1>
+    
+    
+            <p>
+                Wellcome To My Bloog
+            </p>
+        </div>
+        <% posts.forEach(function(post){ %>
+            <a href=<%="/posts/" +post.id %> >
+                <div class="post row container-fluid ">
+                 
+                            <div class="textP col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                               <h2> 
+                                    <%= post.title %>
+                                </h2>
+                     
+
+                                <p class="date">
+                                    <%= post.time %>
+                                </p>
+
+                                <hr>
+                                <p class=" text-break">
+                                    
+                                     <%= post.body.substring(0,150) + " ..." %>  
+                                </p>
+                            </div>
+
+                                <div id="divimg" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <% if (post.body===undefined) { %>
+                                        Error Please wait  
+                                    <% }else { %>  
+                                    <img id="postimg" class="img-fluid img-thumbnail " src="<%= post.imgs[0] %>" alt="post img"> 
+                                    <% } %> 
+                                </div>
+
+
+                </div>
+            </a>
+            <hr id="PostsHr">
+        <% }) %>
+    </div>
+
+
+
+
+
+<%- include("partials/footer") %>

@@ -1,0 +1,172 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, #2b5177, #e9eaeb);
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #2b5177, #e9eaeb);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.header {
+    margin-bottom: 15% 0px 15% 0px;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to right, #1a334d, #e9eaeb);
+
+}
+
+.footer p {
+    padding-top: 1rem;
+    align-content: center;
+    font-size: 1rem;
+    color: rgb(189, 71, 71);
+}
+
+.posts{
+    text-align: center;
+}
+.post {
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    box-shadow: 1px 3px 25px #2b51778a;
+    padding: 0;
+    height: 20%;
+    margin-top: 2px;
+    background-blend-mode: screen;
+}
+
+#postimg {
+    padding: 0;
+    border: 0px;
+    width: 100em;
+    /*widthofimage(pxor%orauto)*/
+    height: auto;
+    margin: 1px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+}
+
+#divimg {
+    padding: 0px;
+}
+
+.singelPost {
+    margin: 1%;
+    background-color: rgba(180, 190, 199, 0.267);
+}
+
+.post:hover {
+    background-image: linear-gradient(to right, #2b51778a, #e9eaeb83);
+    box-shadow: 2px 3px 5px #959b99;
+}
+
+.post h2 {
+    margin-left: 10px;
+}
+
+.post p {
+    max-lines: 5;
+}
+
+.textP {
+    height: 100%;
+    width: 100%;
+}
+.postS{
+    text-align: center;
+
+    width: 100%;
+    padding: 0px 10%;
+    font-size: 	37.5%;
+}
+
+.date {
+    font-display: initial;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 1px rgb(114, 105, 105);
+}
+#PostsHr{
+    width: 90%;
+    padding: 2px 0px;
+
+
+}
+#comA {
+    text-align: center;
+}
+
+h2 {
+    font-size: xx-large;
+    margin: 1rem;
+    text-shadow: 1px 1px 1px rgb(114, 105, 105);
+    font-family: 'Cabin Sketch', cursive;
+}
+
+nav {
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 400%;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+#postText {
+    font-size: xx-large;
+}
+
+p {
+    font-display: initial;
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 1px rgb(114, 105, 105);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: double;
+    color: black;
+}

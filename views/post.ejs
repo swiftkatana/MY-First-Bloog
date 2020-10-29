@@ -1,0 +1,39 @@
+<%- include("partials/header") %>
+
+    
+    <div class="postS   ">
+             
+             <div class="row">
+                    <div class="textP col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                         <h2>   <% "/posts/"+post.id %>
+                          <%= post.title %>
+                          </h2>
+                 
+
+                             <p class="date">
+                                 <%= post.time %>
+                                  </p>
+
+                                  <hr>
+                                  <p class=" text-break">
+                                       <%= post.body  %>
+                                 </p>
+                  </div>
+             </div>
+             
+                
+              <% post.imgs.forEach(function(img){ %>
+      <a href="<%= img %>">   <img id="postimg" class="img-fluid img-thumbnail " src="<%= img %>" alt="post img"> 
+      </a>
+
+        <% }) %>
+
+        </div>
+       
+        
+          
+
+    </div>
+
+
+<%- include("partials/footer") %>
